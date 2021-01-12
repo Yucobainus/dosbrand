@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "CenturyGothic";
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/11528.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body::-webkit-scrollbar {
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+
+.admin-header{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3px 0px;
+}
+
+.admin-header h1{
+    color: inherit;
+}
+.admin-header h3{
+    color: inherit;
+}
+
+
+
+.admin-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-wrapper .tools{
+    display: flex;
+    flex-basis: 20%;
+    height: 120vh;
+    flex-direction: column;
+    justify-content: start;
+    background-color: black;
+    border-top: solid 2px white;
+    border-radius: 8px;
+}
+
+.admin-wrapper .tools a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px 5px 0px 5px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.admin-wrapper .tools a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.admin-wrapper .tools a{
+    color: inherit;
+}
+
+
+
+
+.a-panel .right-side{
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.a-panel .right-side .company-name{
+    margin: 10px auto;
+    width: 300px;
+    padding: 5px;
+    border: 8px solid black;
+}
+
+.a-panel .right-side form {
+    display: grid;
+    margin: 0px auto;
+    grid-gap: 10px;
+    grid-template-columns: 18em 18em 18em;
+}
+
+.a-panel .right-side form .form-sect {
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    background-color: white;
+    -webkit-box-shadow: 6px 4px 9px -5px rgba(147, 6, 37, 0.4);
+    -moz-box-shadow: 6px 4px 9px -5px rgba(147, 6, 37, 0.4);
+    box-shadow: 6px 4px 9px -5px rgba(147, 6, 37, 0.4);
+}
+
+
+.a-panel .right-side form .form-sect label p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.a-panel .right-side form .form-sect .filePlace {
+    border: none
+}
+
+.a-panel .right-side form .form-sect .btn {
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.a-panel .right-side form .form-sect select {
+    padding: 6px;
+}
+
+.a-panel .right-side form .form-sect input {
+    width: 10em;
+    height: 2em;
+    border-radius: 40px;
+    padding: 5px;
+    outline: none;
+    margin: 5px auto;
+    border: 1px solid #000000;
+}
+
+.a-panel .right-side form .form-sect {
+    margin: 5px;
+}
+
+.a-panel .right-side form .form-sect .btn:hover {
+    cursor: pointer;
+}
+
+.a-panel .right-side form .form-sect .btn {
+    height: 2em;
+    width: 10em;
+    background-color: #000000;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.a-panel .right-side form .form-sect img{
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+.a-panel .right-side .lines-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+}
+
+.a-panel .right-side .lines-wrapper .onepr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-panel .right-side .lines-wrapper .onepr img {
+    width: 30px;
+}
+
+.a-panel .right-side .lines-wrapper .onepr p {
+    margin: auto 5px;
+}
+
+.a-panel .right-side .lines-wrapper .onepr a {
+    margin: auto 5px;
+}
+
+.a-panel .right-side .lines-wrapper .onepr div {
+    border-left: solid 1px black;
+    margin: auto 0px;
+}
+
+.a-panel .right-side .lines-wrapper .onepr .update a {
+    color: #069345;
+    font-weight: 500;
+}
+
+.a-panel .right-side .lines-wrapper .onepr .delete a {
+    color: #930625;
+    font-weight: 500;
+}
+
+#color{
+    padding: 0px;
+    border: none;
+}
